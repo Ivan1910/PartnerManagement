@@ -1,0 +1,15 @@
+﻿.table-responsive {
+    height: calc(100vh - 66px);
+    overflow: scroll;
+}
+
+thead tr:nth-child(1) th {
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.partnersRow:hover{
+    cursor:pointer;
+}
